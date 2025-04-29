@@ -1,44 +1,43 @@
 @media (max-width: 767px) {
-  body {
-    /* Consider a slightly smaller base font size if needed */
-    /* font-size: 14px; */
-  }
-
   h1 {
     font-size: 1.8rem;
-  } /* Example: Reduce default h1 */
+  }
+
   h2 {
     font-size: 1.5rem;
-  } /* Example: Reduce default h2 */
+  }
+
   h4 {
     font-size: 1.1rem;
-  } /* Example: Reduce default h4 */
+  }
 
   /* --- Header / Navbar --- */
+
   .navbar {
     height: auto;
     gap: 15px;
   }
 
   .logo {
-    margin-left: 0; /* Remove specific margin */
-    align-self: center; /* Center logo */
+    margin-left: 0;
+    align-self: center;
   }
 
   .nav-links {
-    flex-direction: column; /* Stack nav links vertically */
-    gap: 10px; /* Reduce gap */
-    align-items: center; /* Center links */
-    width: 100%; /* Take full width */
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
   }
 
   .nav-links li {
     width: 100%;
     text-align: center;
   }
+
   .nav-links a {
-    display: block; /* Make link take full width */
-    padding: 8px 0; /* Add padding */
+    display: block;
+    padding: 8px 0;
   }
 
   #buy-now {
@@ -60,12 +59,12 @@
 
   .hero-content p {
     text-align: center;
-    font-size: 16px; /* Ensure readable paragraph size */
+    font-size: 16px;
   }
 
   .hero-links {
     justify-content: center;
-    align-items: center; /* Center stacked buttons */
+    align-items: center;
     padding: 0;
     gap: 15px;
     width: 100%;
@@ -74,18 +73,18 @@
   .hero-links button, /* Includes .play-video */
   .hero-links a {
     /* Includes .learn-more */
-    width: 80%; /* Make buttons wider */
-    max-width: 150px; /* Limit button width */
+    width: 80%;
+    max-width: 150px;
     text-align: center;
   }
 
   .play-video {
-    width: 80%; /* Ensure consistency */
+    width: 80%;
     max-width: 250px;
   }
 
   .icon {
-    width: 50px; /* Maybe even smaller */
+    width: 50px;
     height: 50px;
     padding: 8px;
   }
@@ -179,15 +178,15 @@
 
   /* --- Why Front Section --- */
   .why-front {
-    padding: 30px 15px 50px; /* Reduce padding */
+    padding: 30px 15px 50px;
     gap: 25px;
   }
 
   .line-bullets {
     flex-direction: column;
-    gap: 25px; /* Reduce gap */
+    gap: 25px;
     margin: 0 0 0 100px;
-    padding: 0; /* Add padding back if needed */
+    padding: 0;
     max-width: 100%;
   }
 
@@ -202,21 +201,21 @@
 
   /* --- Pricing Section --- */
   .pricing {
-    padding: 30px 15px 60px; /* Reduce padding */
+    padding: 30px 15px 60px;
     gap: 30px;
   }
 
   .pricing-layout-container {
     /* Already stacked from tablet */
-    gap: 30px; /* Reduce gap */
-    max-width: 100%; /* Allow full width */
-    padding: 0 10px; /* Add padding */
+    gap: 30px;
+    max-width: 100%;
+    padding: 0 10px;
     box-sizing: border-box;
   }
 
   .price-card {
-    max-width: 100%; /* Take full width */
-    padding: 30px; /* Reduce padding */
+    max-width: 100%;
+    padding: 30px;
   }
 
   .price-card > p:last-of-type {
@@ -224,20 +223,20 @@
   }
 
   .pricing-features {
-    grid-template-columns: 1fr; /* Stack features into a single column */
-    gap: 20px; /* Increase gap slightly if stacked */
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   /* --- Hire Us Section --- */
 
   .hire-us {
-    padding: 30px 15px; /* Reduce padding */
+    padding: 30px 15px;
     gap: 30px;
   }
 
   .hire-us-details {
-    flex-direction: column; /* Stack text/quote and person info */
-    align-items: center; /* Center stacked items */
+    flex-direction: column;
+    align-items: center;
     gap: 100px;
     max-width: 100%;
     padding: 0 10px;
@@ -245,8 +244,8 @@
   }
 
   .hire-us-left {
-    align-items: center; /* Center content */
-    text-align: center; /* Center text */
+    align-items: center;
+    text-align: center;
   }
 
   .person-info {
@@ -260,21 +259,21 @@
   /* Form styling */
 
   .contact-form {
-    padding: 20px; /* Reduce form padding */
+    padding: 20px;
   }
 
   .form-row {
-    flex-direction: column; /* Stack inputs that were side-by-side */
-    gap: 15px; /* Add gap for stacked inputs */
+    flex-direction: column;
+    gap: 15px;
   }
 
   .checkbox-group {
-    gap: 10px; /* Reduce gap */
+    gap: 10px;
   }
 
   .privacy-links-container {
     margin: 0 35px;
-    gap: 15px; /* Adjust gap */
+    gap: 15px;
   }
 
   /* --- Footer --- */
@@ -283,13 +282,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0; /* Remove padding if footer has it */
+    padding: 0;
     gap: 25px;
   }
 
   .footer-logo {
     align-items: center;
-    gap: 15px; /* Reduce gap */
+    gap: 15px;
   }
 
   .footer-details {
