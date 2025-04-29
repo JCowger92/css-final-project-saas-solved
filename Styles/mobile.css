@@ -1,0 +1,326 @@
+@media (max-width: 767px) {
+  body {
+    /* Consider a slightly smaller base font size if needed */
+    /* font-size: 14px; */
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  } /* Example: Reduce default h1 */
+  h2 {
+    font-size: 1.5rem;
+  } /* Example: Reduce default h2 */
+  h4 {
+    font-size: 1.1rem;
+  } /* Example: Reduce default h4 */
+
+  /* --- Header / Navbar --- */
+  .navbar {
+    height: auto;
+    gap: 15px;
+  }
+
+  .logo {
+    margin-left: 0; /* Remove specific margin */
+    align-self: center; /* Center logo */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Stack nav links vertically */
+    gap: 10px; /* Reduce gap */
+    align-items: center; /* Center links */
+    width: 100%; /* Take full width */
+  }
+
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-links a {
+    display: block; /* Make link take full width */
+    padding: 8px 0; /* Add padding */
+  }
+
+  #buy-now {
+    justify-self: center;
+  }
+
+  /* --- Hero Section --- */
+  .hero {
+    padding: 30px 15px;
+    height: 705px;
+    background-size: 100% 420px;
+  }
+
+  .hero-content h1 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .hero-content p {
+    text-align: center;
+    font-size: 16px; /* Ensure readable paragraph size */
+  }
+
+  .hero-links {
+    justify-content: center;
+    align-items: center; /* Center stacked buttons */
+    padding: 0;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .hero-links button, /* Includes .play-video */
+  .hero-links a {
+    /* Includes .learn-more */
+    width: 80%; /* Make buttons wider */
+    max-width: 150px; /* Limit button width */
+    text-align: center;
+  }
+
+  .play-video {
+    width: 80%; /* Ensure consistency */
+    max-width: 250px;
+  }
+
+  .icon {
+    width: 50px; /* Maybe even smaller */
+    height: 50px;
+    padding: 8px;
+  }
+
+  #google,
+  #atlassian,
+  #asana,
+  #paypal,
+  #weave,
+  #google-ads,
+  #google-cal {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    top: auto;
+    animation: none;
+    z-index: 15;
+  }
+
+  #google img,
+  #atlassian img,
+  #asana img,
+  #paypal img,
+  #weave img,
+  #google-ads img,
+  #google-cal img {
+    width: 50px;
+    height: 50px;
+    z-index: 15;
+  }
+
+  #google {
+    top: 0px;
+    left: 100px;
+  }
+
+  #google img {
+    width: 45px;
+    height: 45px;
+  }
+
+  #atlassian {
+    top: -75px;
+    left: 210px;
+  }
+
+  #atlassian img {
+    width: 47px;
+    height: 47px;
+  }
+
+  #asana {
+    top: -150px;
+    left: 355px;
+  }
+
+  #paypal {
+    top: -100px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+  }
+
+  #weave {
+    top: -200px;
+    left: 300px;
+    width: 100px;
+    height: 100px;
+  }
+
+  #google-ads {
+    top: -150px;
+    left: 200px;
+  }
+
+  #google-cal {
+    top: -220px;
+    left: 340px;
+    width: 100px;
+    height: 100px;
+  }
+
+  #paypal img,
+  #weave img,
+  #google-cal img {
+    width: 60px;
+    height: 60px;
+    overflow: visible;
+  }
+
+  /* --- Why Front Section --- */
+  .why-front {
+    padding: 30px 15px 50px; /* Reduce padding */
+    gap: 25px;
+  }
+
+  .line-bullets {
+    flex-direction: column;
+    gap: 25px; /* Reduce gap */
+    margin: 0 0 0 100px;
+    padding: 0; /* Add padding back if needed */
+    max-width: 100%;
+  }
+
+  .line-bullets::after {
+    display: none;
+  }
+
+  .line-bullets li {
+    flex-direction: row;
+    flex-basis: unset;
+  }
+
+  /* --- Pricing Section --- */
+  .pricing {
+    padding: 30px 15px 60px; /* Reduce padding */
+    gap: 30px;
+  }
+
+  .pricing-layout-container {
+    /* Already stacked from tablet */
+    gap: 30px; /* Reduce gap */
+    max-width: 100%; /* Allow full width */
+    padding: 0 10px; /* Add padding */
+    box-sizing: border-box;
+  }
+
+  .price-card {
+    max-width: 100%; /* Take full width */
+    padding: 30px; /* Reduce padding */
+  }
+
+  .price-card > p:last-of-type {
+    line-height: 25px;
+  }
+
+  .pricing-features {
+    grid-template-columns: 1fr; /* Stack features into a single column */
+    gap: 20px; /* Increase gap slightly if stacked */
+  }
+
+  /* --- Hire Us Section --- */
+
+  .hire-us {
+    padding: 30px 15px; /* Reduce padding */
+    gap: 30px;
+  }
+
+  .hire-us-details {
+    flex-direction: column; /* Stack text/quote and person info */
+    align-items: center; /* Center stacked items */
+    gap: 100px;
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .hire-us-left {
+    align-items: center; /* Center content */
+    text-align: center; /* Center text */
+  }
+
+  .person-info {
+    align-items: center;
+  }
+
+  .person-details {
+    align-items: center;
+  }
+
+  /* Form styling */
+
+  .contact-form {
+    padding: 20px; /* Reduce form padding */
+  }
+
+  .form-row {
+    flex-direction: column; /* Stack inputs that were side-by-side */
+    gap: 15px; /* Add gap for stacked inputs */
+  }
+
+  .checkbox-group {
+    gap: 10px; /* Reduce gap */
+  }
+
+  .privacy-links-container {
+    margin: 0 35px;
+    gap: 15px; /* Adjust gap */
+  }
+
+  /* --- Footer --- */
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0; /* Remove padding if footer has it */
+    gap: 25px;
+  }
+
+  .footer-logo {
+    align-items: center;
+    gap: 15px; /* Reduce gap */
+  }
+
+  .footer-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links-wrapper {
+    gap: 25px;
+    width: 100%;
+  }
+
+  .footer-links-wrapper > div {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links-group {
+    width: 100%;
+  }
+
+  .footer-links-group > div {
+    gap: 0;
+    align-items: center;
+    width: 150px;
+  }
+
+  .footer-links-group ul {
+    align-items: center;
+    text-align: center;
+  }
+}

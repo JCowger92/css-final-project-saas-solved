@@ -1,0 +1,261 @@
+@media (max-width: 1023px) {
+  /* --- General Settings */
+
+  body {
+    margin: auto;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 0.5rem 0;
+  }
+
+  .hamburger-menu {
+    display: block;
+    z-index: 11;
+  }
+
+  .nav-links a.active {
+    color: #677788;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    background-size: 100% 350px;
+  }
+
+  .hero-content {
+    width: 100%;
+    align-items: center;
+  }
+
+  .icon,
+  .icon2,
+  .icon img,
+  .icon2 img {
+    opacity: 1;
+  }
+
+  #google,
+  #atlassian,
+  #asana,
+  #paypal,
+  #weave,
+  #google-ads,
+  #google-cal {
+    animation-play-state: paused;
+  }
+
+  /* --- Icon Placement --- */
+
+  #google {
+    left: -50px;
+  }
+
+  #atlassian {
+    left: 150px;
+    top: 20px;
+  }
+
+  #asana {
+    left: 500px;
+    top: 15px;
+  }
+
+  #paypal {
+    left: -50px;
+    top: 100px;
+  }
+
+  #weave {
+    top: 100px;
+    left: 325px;
+  }
+
+  #google-ads {
+    top: 200px;
+    left: 75px;
+  }
+
+  #google-cal {
+    top: 225px;
+    left: 400px;
+  }
+
+  /* --- Pricing Section --- */
+
+  .pricing-layout-container {
+    max-width: 100%;
+    background-color: white;
+  }
+
+  .price-card {
+    max-width: 100%;
+    box-shadow: none;
+  }
+
+  .price-card h3 {
+    align-self: center;
+  }
+
+  .button-details p {
+    font-size: 12px !important;
+  }
+
+  .button-details {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 10px;
+  }
+
+  .pricing-features {
+    max-width: 100%;
+  }
+
+  /* --- Hire Us Section --- */
+
+  .hire-us {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .hire-us-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .hire-us-left {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 10px;
+    align-items: flex-start;
+    text-align: left;
+    min-width: 250px;
+    max-width: 100%;
+  }
+
+  .hire-us-left hr {
+    width: 125%;
+  }
+
+  .hire-us-left .subtitle,
+  .hire-us-left blockquote {
+    font-size: 14px;
+  }
+
+  .person-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -35px;
+    gap: 20px;
+    border-radius: 50px;
+  }
+
+  .hire-us-person img {
+    border-radius: 50px;
+  }
+
+  /* Form container */
+
+  .hire-us-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-form {
+    max-width: 900px;
+    margin: 0;
+  }
+
+  .contact-form a.privacy {
+    text-align: left;
+  }
+
+  .privacy-links-container {
+    justify-content: flex-start;
+  }
+
+  #privacy-link-2 {
+    display: none;
+  }
+
+  /* --- Footer Section --- */
+
+  .footer-content {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+
+  .footer-logo {
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 5px;
+  }
+
+  .footer-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .footer-links-wrapper li a.active-footer-link {
+    color: #677788;
+  }
+
+  .footer-links-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+    gap: 49px;
+  }
+
+  .footer-links-group > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .footer-links-group h4 {
+    text-align: left;
+  }
+
+  .footer-links-group ul {
+    align-items: flex-start;
+    list-style: none;
+  }
+}

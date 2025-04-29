@@ -3,8 +3,273 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Saas company</title>
+    <title>Saas Company</title>
+    <link rel="stylesheet" href="/Styles/styles.css" />
+    <link rel="stylesheet" href="/Styles/tablet.css">
+    <link rel="stylesheet" href="/Styles/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:weight@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="/assets/logos/logo-front.svg" alt="Front Logo" />
+        </div>
+        <button class="hamburger-menu">
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#" class="active">Features</a></li>
+          <li><a href="#">Learn</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Hire Us</a></li>
+          <li><a href="#" id="buy-now">Buy Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>
+          Empowering
+          teams with the
+          freedom
+        </h1>
+        <p>Own the unlimited power of web development</p>
+        <div class="hero-links">
+          <button class="play-video">&#9658; Play Video</button>
+          <a class="learn-more">Learn More</a>
+        </div>
+      </div>
+      <div class="hero-icons">
+        <div class="icon" id="google">
+          <img src="/assets/logos/google.png" alt="Google" />
+        </div>
+        <div class="icon2" id="atlassian">
+          <img src="/assets/logos/atlassian.png" alt="Atlassian" />
+        </div>
+        <div class="icon" id="asana">
+          <img src="/assets/logos/asana.png" alt="Asana" />
+        </div>
+        <div class="icon2" id="paypal">
+          <img src="/assets/logos/paypal.jpg" alt="PayPal" />
+        </div>
+        <div class="icon" id="weave">
+          <img src="/assets/logos/weave.png" alt="Weave" />
+        </div>
+        <div class="icon2" id="google-ads">
+          <img src="/assets/logos/google-ads.png" alt="Google Ads" />
+        </div>
+        <div class="icon" id="google-cal">
+          <img src="/assets/logos/calendar.png" alt="Google Calendar" />
+        </div>
+      </div>
+    </section>
+
+    <section class="why-front">
+      <div class="why-front-title-container">
+        <h2>Why Front?</h2>
+        <p>
+          Front is an incredibly beautiful, fully responsive, and mobile-first
+          projects on <br />
+          the web - it is the starting point for creative sites
+        </p>
+      </div>
+      <div class="line-bullets">
+        <ul class="features">
+          <li>Basic elements</li>
+          <li>Components</li>
+          <li>Combined components</li>
+          <li>Page layouts</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="pricing">
+      <div class="pricing-title-container">
+        <h2>Pricing</h2>
+        <p>No additional costs. Pay for what you use.</p>
+      </div>
+
+      <div class="pricing-layout-container">
+        <div class="price-card">
+          <h3>59 <span>/ mo</span></h3>
+          <hr />
+          <p>
+            Start your Front business now. 100% guaranteed money back. No
+            questions asked.
+          </p>
+          <div class="button-details">
+            <button class="play-video">&#9658; Play Video</button>
+            <p>No credit card required.</p>
+          </div>
+        </div>
+
+        <div class="pricing-features">
+          <div>
+            <img src="/assets/images/components.svg" alt="Components" />
+            <h4>Hundreds of components</h4>
+            <p>Achieve maximum productivity with minimum effort with Front and create robust Limitless.</p>
+          </div>
+          <div>
+            <img src="/assets/images/images.svg" alt="Images" />
+            <h4>Images included</h4>
+            <p>Images included We made custom license for all our premium images in the front</p>
+          </div>
+          <div>
+            <img src="/assets/images/cancel.svg" alt="Cancel Anytime" />
+            <div class="feature-title-line">
+              <h4>Cancel anytime</h4>
+              <span class="status-badge">sketch</span>
+            </div>
+            <p>If its not for you, just cancel, no hidden costs or fees.</p>
+          </div>
+          <div>
+            <img src="/assets/images/moneyback.svg" alt="Money Back" />
+            <h4>Money back</h4>
+            <p>100% guaranteed money back. No questions asked.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hire-us">
+        <div class="hire-us-details">
+          <div class="hire-us-left">
+            <h2>Hire Us</h2>
+            <p class="subtitle">Whatever your goal - we will get you there</p>
+            <hr />
+            <blockquote>
+              "I love Front! I love the ease of use, I love the <br> fact that I have
+              total creative freedom."
+            </blockquote>
+          </div>
+            <div class="person-info">
+              <div class="person-details">
+                <h2 class="name">Charlotte Moore</h2>
+                <cite class="title">Head of Commercials, Slack</cite>
+              </div>
+              <img src="../assets/images/man_one.jpg" alt="Charlotte Moore" />
+            </div>
+        </div>
+
+      <div class="hire-us-right">
+        <form class="contact-form">
+          <p>Fill out the form and we'll be in touch as soon as possible</p>
+          <div class="form-row">
+            <input type="text" placeholder="First name" required />
+            <input type="text" placeholder="Last name" required />
+          </div>
+          <input type="email" placeholder="Email" required />
+          <div class="form-row">
+            <select required>
+              <option disabled selected value="">Budget</option>
+              <option value="1">$1,000 - $5,000</option>
+              <option value="2">$5,000 - $10,000</option>
+            </select>
+            <select required>
+              <option disabled selected value="">Country</option>
+              <option value="US">United States</option>
+              <option value="CA">Canada</option>
+            </select>
+          </div>
+          <textarea
+            placeholder="Tell us more about your project, needs, and timeline, please..."
+            required
+          ></textarea>
+          <div class="checkbox-group">
+            <input type="checkbox" id="marketing-email" />
+            <label for="marketing-email">
+              Yes, I'd like to receive occasional marketing emails from Front. I
+              have the right to opt out at any time.
+            </label>
+          </div>
+          <div class="privacy-links-container">
+            <a href="#" class="privacy">View privacy policy</a>
+            <a href="#" class="privacy" id="privacy-link-2"
+              >View privacy policy</a
+            >
+          </div>
+          <button type="submit">Submit Form</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="../assets/logos/logo-front.svg" alt="Front Logo" />
+          <div class="footer-details">
+            <p><i class="fas fa-location-arrow"></i>153 Williamson Plaza, Maggieberg</p>
+            <p>
+              <i class="fas fa-phone"></i
+              ><a href="tel:+10621099222">+1 (062) 109-9222</a>
+            </p>
+          </div>
+        </div>
+        <div class="footer-links-wrapper">
+          <div class="footer-links-group">
+            <div>
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Career</a> <span class="badge">We're hiring</span></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Hire us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-links-group">
+            <div>
+              <h4>Features</h4>
+              <ul>
+                <li><a href="#">Press</a></li>
+                <li><a href="#" class="active-footer-link">Release notes</a></a></li>
+                <li><a href="#">Integrations</a></li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-links-group">
+            <div>
+              <h4>Documentation</h4>
+              <ul>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">API Reference</a></li>
+                <li><a href="#">Tech Requirements</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-links-group">
+            <div>
+              <h4>Resources</h4>
+              <ul>
+                <li><i class="fas fa-info-circle"></i><a href="#">Help</a></li>
+                <li><i class="fas fa-user-circle"></i><a href="#">Your Account</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const hamburgerMenu = document.querySelector('.hamburger-menu');
+const navLinks = document.querySelector('.nav-links');
+
+hamburgerMenu.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+    </script>
+  </body>
 </html>
